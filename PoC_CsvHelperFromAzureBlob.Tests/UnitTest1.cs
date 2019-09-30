@@ -104,9 +104,9 @@ namespace Tests
 
         private CloudBlockBlob GetCloudBlockBlob()
         {
-            var connectionString = $"DefaultEndpointsProtocol=https;AccountName=smgftprentokilimporter;AccountKey=s213aeKYdViwpcxBz7MECZrgtsrOUQUoc4JhZmhVe0ZpZG5HwjaHeRbFo7JYTLJQQKgK0qr2rLZVVGs2F6AFvw==;EndpointSuffix=core.windows.net";
-            var containerName = "ftp-rentokil-files";
-            var fileName = "SERVCOV.CSV";
+            var connectionString = $"";
+            var containerName = "";
+            var fileName = "";
            
  
             // Setup the connection to the storage account
